@@ -18,7 +18,7 @@ A Simple Tool to Lookup Informations about IP Adresses made with PHP and [IP-API
 - Add maybe a Embed Widget for Websites
 
 ## Used Services
-- [Leaflet](https://leafletjs.com / "Leaflet")
+- [Leaflet](https://leafletjs.com/ "Leaflet")
 - [IP-API](https://ip-api.com/ "IP-API")
 
 ------------
