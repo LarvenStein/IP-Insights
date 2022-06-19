@@ -20,6 +20,7 @@ A Simple Tool to Lookup Informations about IP Adresses made with PHP and [IP-API
 ## Used Services
 - [Leaflet](https://leafletjs.com/ "Leaflet")
 - [IP-API](https://ip-api.com/ "IP-API")
+- [OpenStreetMap](https://www.openstreetmap.org/ "OpenStreetMap")
 
 ------------
 
