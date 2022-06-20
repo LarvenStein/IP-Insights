@@ -1,4 +1,4 @@
-# IP-Lookup
+# IP-Insights
 A Simple Tool to Lookup Informations about IP Adresses made with PHP and [IP-API](https://ip-api.com/ "IP-API")
 
 **You can try the tool at [ip.steinlarve.de](https://ip.steinlarve.de/ "ip.steinlarve.de")**
