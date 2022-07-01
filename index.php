@@ -45,6 +45,8 @@
             $vpn = '✘';
         }
 
+        if($ipdata['status'] == 'success') {
+
         echo "
         <div class='center'>
         <h3>Die IP Adresse &#34;".$ipdata['query']."&#34; gehört zu dieser Region:</h3>
@@ -150,6 +152,9 @@
         </div>
 
         ";
+    } else {
+        echo '<div class="center"><h3>Deine Anfrage ist Fehlgeschlagen!</h3></div>';
+    }
         
     } else {
         
@@ -282,6 +287,19 @@
         ";
         
     }
-?>
+
+    if(isset($_GET['query'])) {
+        $whois = 'whois/?query='.$_GET['query'].'';
+    } else {
+        $reversedns = 'reversedns/';
+    }
+echo '
+<div class="center">
+	<footer>
+        < <a href="https://github.com/LarvenStein/IP-Lookup" target="_blank">GitHub</a> / <a href="https://discord.com/api/oauth2/authorize?client_id=992069594900611213&permissions=67584&scope=bot" target="_blank">Discord Bot</a>>
+	</footer>
+    </div>
+    ';
+    ?>
 </body>
 </html>
