@@ -31,17 +31,25 @@ table, tr {
 .search {
     background-color: black;
     color: white;
-    padding: 5px;
+    padding: 10px;
     margin-left: 0;
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
 }
 
 input[type=text] {
-    padding: 5px;
+    padding: 10px;
     border-top-left-radius: 15px;
     border-bottom-left-radius: 15px;
     border: 2px solid black;
     border-top-right-radius: 0px;
     border-bottom-right-radius: 0px;
+}
+
+footer {
+    display: block;
+}
+
+footer a {
+    color: black;
 }
