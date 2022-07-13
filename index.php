@@ -296,7 +296,7 @@
 echo '
 <div class="center">
 	<footer>
-        < <a href="https://github.com/LarvenStein/IP-Lookup" target="_blank">GitHub</a> / <a href="https://discord.com/api/oauth2/authorize?client_id=992069594900611213&permissions=67584&scope=bot" target="_blank">Discord Bot</a>>
+        < <a href="https://github.com/LarvenStein/IP-Lookup" target="_blank">GitHub</a> / <a href="https://discord.com/api/oauth2/authorize?client_id=992069594900611213&permissions=67584&scope=bot" target="_blank">Discord Bot</a> >
 	</footer>
     </div>
     ';
