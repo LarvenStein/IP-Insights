@@ -13,7 +13,7 @@ A Simple Tool to Lookup Informations about IP Adresses made with PHP and [IP-API
 ## To Do
 - Add a Speedtest function
 - Add a Ping measuring tool 
-- Add a Whois Lookup tool
+- ~~Add a Whois Lookup tool~~
 - Add maybe a Embed Widget for Websites
 
 ## Used Services
