@@ -18,6 +18,9 @@ A Simple Tool to Lookup Informations about IP Adresses made with PHP and [IP-API
 - ~~Add a Ping measuring tool~~ 
 - ~~Add a Whois Lookup tool~~
 
+## Browser Extensions
+- Firefox: [GitHub](https://github.com/LarvenStein/IP-Insights-for-Firefox) ◦ [Firefox Addon Store](https://addons.mozilla.org/en-US/firefox/addon/ip-insights/)
+
 ## Used Services
 - [Leaflet](https://leafletjs.com/ "Leaflet")
 - [IP-API](https://ip-api.com/ "IP-API")
