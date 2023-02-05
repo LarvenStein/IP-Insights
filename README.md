@@ -23,6 +23,10 @@ A Simple Tool to Lookup Informations about IP Adresses made with PHP and [IP-API
 - [IP-API](https://ip-api.com/ "IP-API")
 - [OpenStreetMap](https://www.openstreetmap.org/ "OpenStreetMap")
 
+## Dependencies
+- `mashape/unirest-php` in `/whois`
+
+
 ------------
 
 
