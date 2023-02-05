@@ -12,7 +12,7 @@ A Simple Tool to Lookup Informations about IP Adresses made with PHP and [IP-API
 
 ## To Do
 - Add maybe a Embed Widget for Websites
-- Browser extensions
+- Browser extensions [&#9203;]
 
 
 - ~~Add a Ping measuring tool~~ 
