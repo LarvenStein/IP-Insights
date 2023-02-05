@@ -11,12 +11,11 @@ A Simple Tool to Lookup Informations about IP Adresses made with PHP and [IP-API
 5. All of the Information gets in a Table under the Map
 
 ## To Do
-- Add a Ping measuring tool 
 - Add maybe a Embed Widget for Websites
 - Browser extensions
 
 
-
+- ~~Add a Ping measuring tool~~ 
 - ~~Add a Whois Lookup tool~~
 
 ## Used Services
