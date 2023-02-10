@@ -4,10 +4,28 @@ body {
     font-family: 'IBM Plex Mono', monospace;
 }
 
+#tr pre {
+  text-align: justify;
+}
+
+.testping {
+    text-decoration: underline;
+}
+.testping:hover {
+    cursor: pointer;
+}
+.testedping {
+    text-decoration: none;
+}
+.testedping:hover {
+        cursor: text;
+}
+
 #map { 
     height: 650px; 
     width: 75%;
     border-radius: 15px;
+    z-index: 10;
 }
 
 .center {
@@ -52,4 +70,22 @@ footer {
 
 footer a {
     color: black;
+}
+
+header {
+    display: grid;
+    place-items: center;
+    border-bottom: 1px solid black;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background-color: white;
+    z-index: 99;
+}
+
+@media only screen and (min-width: 1280px) {
+    .center2 {
+    margin-left: 25vw;
+    margin-right: 25vw;
+    }
 }

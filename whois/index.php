@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="de">
+<html lang="en">
 <head>
         <link rel="stylesheet" href="../style.css">
         <meta charset="UTF-8">
@@ -9,11 +9,11 @@
 </head>
 <body>
 <header>
-<h1>IP Lookup WHOIS</h1>
+<h1>IP-Insights WHOIS</h1>
 <form method="get">
         <?php
         echo '
-        <input type="text" id="query" name="query" value="'.$_GET['query'].'" placeholder="IP Adresse oder Domain"><button type="submit" class="search">Suchen</button>
+        <input type="text" id="query" name="query" value="'.$_GET['query'].'" placeholder="IP Adress or Domain"><button type="submit" class="search">Search</button>
         ';
         ?>
 </form>
@@ -21,7 +21,8 @@
 </header>
 <div class="center">
         <?php
-        echo '<h3>Whois Anfrage für '.$_GET['query'].':</h3>';
+        error_reporting(0);
+        echo '<h3>Whois request for '.$_GET['query'].':</h3>';
         ?>
 </div>
 <div class="center2">
@@ -35,12 +36,17 @@ require_once 'vendor/autoload.php';
 require_once('./keys.php');
 
 if(strlen($_GET['query']) <= 2) {
-        echo '<b>Deine Anfrage ist leider Fehlgeschlagen!</b>';
+        echo '<b>Sorry, your request failed!</b>';
 } else {
         if(isset($_GET['query'])) {
                 $query = $_GET['query'];
         } else {
                 $query = $_SERVER['REMOTE_ADDR'];
+        }
+        if (str_contains($query, ':')) {
+            $query = explode(':', $query)[0];
+        } else {
+            $query = $query;
         }
 
         $statusdata = file_get_contents('http://ip-api.com/json/'.$query.'?fields=16384');
@@ -142,7 +148,7 @@ if(strlen($_GET['query']) <= 2) {
 
                 echo $whoismessage;
         } else {
-                echo '<b>Deine Anfrage ist leider Fehlgeschlagen!</br>';
+                echo '<b>Sorry, your request failed!</br>';
                 die;
         }
 }
