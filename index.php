@@ -37,8 +37,8 @@
     }
 
         $ipdata = [];
-        
-        if (str_contains($query, ':')) {
+
+        if (substr_count($query, ":") == 1) {
             $query = explode(':', $_GET['query'])[0];
         } 
 
